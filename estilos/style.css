@@ -1,2 +1,59 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,500;1,300&display=swap');
+/*font-family: 'Chakra Petch', sans-serif;*/
+/*
+    Paleta de Cores
+    manhã: #3ED3FF; #88B3FF; #62C3FF, #88B3FF, #AFA2FF; #D094FF; #F982FF;
+    tarde: #ffe53bd8; #ff2525da;
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(120deg, #3ED3FF, #62C3FF, #88B3FF, #AFA2FF, #D094FF, #F982FF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+contain#relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 570px;
+    background: transparent;
+    border-radius: 7px;
+    box-shadow: 4px 7px 16px rgba(0, 0, 0, 0.501);
+}
+
+div {
+    background-color: rgba(5, 5, 5, 0.9);
+    color: white;
+    height: 170px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.434);
+    border-radius: 8px;
+    letter-spacing: 2px ;
+}
+
+span.num{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+span.tempo{
+    font-size: 1.1em;
+    font-weight: 300;
+    font-style: italic;
+}
