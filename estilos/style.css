@@ -16,6 +16,7 @@
 body{
     height: 100vh;
     background: linear-gradient(120deg, #3ED3FF, #62C3FF, #88B3FF, #AFA2FF, #D094FF, #F982FF);
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
